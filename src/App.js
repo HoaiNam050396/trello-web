@@ -8,7 +8,6 @@ function App() {
           Hello word!!!
         </p>
           Learn React
-      
       </header>
     </div>
   );
