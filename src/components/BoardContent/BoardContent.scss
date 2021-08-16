@@ -1,0 +1,20 @@
+@import '_setting.scss';
+
+.dashboard-content {
+    display: flex;
+    margin: 0 $padding-10px $padding-10px;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      //ẩn thanh scroll bar cho vô hình
+      -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar:horizontal {
+      //tạo chiều cao cho scroll bar
+      height: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      //tạo màu cho scroll bar
+      background-color: rgba(255, 255, 255, 0.24); //darken là phối màu
+      border-radius: 8px;
+    }
+  }
