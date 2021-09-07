@@ -12,10 +12,6 @@ function Column(props) {
       <header>{column.title}</header>
       <ul className="card-list">
         {cards.map((card, index) => <Card key={index} card={card}/>)}
-        {/* <li className="card-item">Add anythings</li>
-        <li className="card-item">Add anythings</li>
-        <li className="card-item">Add anythings</li>
-        <li className="card-item">Add anythings</li> */}
       </ul>
       <footer>Add another</footer>
     </div>
